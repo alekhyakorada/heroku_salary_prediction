@@ -27,4 +27,6 @@ def contacts():
 @ app.route('/feedback')
 def feedback():
     return 'Welcome to feedback page'
-app.run(debug=True)
+
+if __name__=="__main__":
+    app.run(debug=True)
